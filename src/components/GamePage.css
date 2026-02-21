@@ -1,0 +1,45 @@
+.game-page {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 40px 20px 20px;
+}
+
+.game-header {
+  text-align: center;
+  margin-bottom: 28px;
+  animation: game-enter 0.6s ease;
+}
+
+@keyframes game-enter {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.game-title {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin: 0 0 6px;
+}
+
+.game-subtitle {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin: 0 0 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.game-instructions {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* RWD */
+@media (max-width: 480px) {
+  .game-title {
+    font-size: 26px;
+  }
+}

@@ -1,0 +1,8 @@
+.main-site {
+  min-height: 100vh;
+  background: var(--bg-primary);
+}
+
+.main-content {
+  padding-top: 60px; /* navbar height */
+}
