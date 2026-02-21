@@ -47,8 +47,8 @@
 }
 
 .wish-card {
-  background: linear-gradient(135deg, rgba(255, 253, 245, 0.06), rgba(168, 85, 247, 0.04));
-  border: 1px solid rgba(255, 253, 245, 0.1);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.7), rgba(244, 114, 182, 0.08));
+  border: 1px solid rgba(244, 114, 182, 0.15);
   border-radius: var(--radius-lg);
   padding: 24px;
   animation: wish-slide-in 0.5s var(--delay, 0s) ease both;
@@ -89,7 +89,7 @@
 
 .wish-from {
   font-size: 13px;
-  color: var(--accent-purple-light);
+  color: var(--accent-pink-light);
   font-weight: 600;
   font-style: italic;
 }

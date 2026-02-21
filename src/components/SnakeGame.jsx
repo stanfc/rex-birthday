@@ -96,11 +96,11 @@ export default function SnakeGame() {
     if (!ctx) return
 
     // Background
-    ctx.fillStyle = '#0e0e1a'
+    ctx.fillStyle = '#fdf2f8'
     ctx.fillRect(0, 0, CANVAS_SIZE, CANVAS_SIZE)
 
     // Grid lines
-    ctx.strokeStyle = 'rgba(168, 85, 247, 0.08)'
+    ctx.strokeStyle = 'rgba(244, 114, 182, 0.08)'
     ctx.lineWidth = 0.5
     for (let i = 0; i <= GRID; i++) {
       ctx.beginPath()
@@ -113,14 +113,14 @@ export default function SnakeGame() {
       ctx.stroke()
     }
 
-    // Snake body — 恐龍 emoji 🦕
+    // Snake body — 恐龍 emoji 🦖
     const snake = snakeRef.current
     ctx.font = `${CELL - 2}px serif`
     ctx.textAlign = 'center'
     ctx.textBaseline = 'middle'
     snake.forEach((seg, i) => {
       if (i === 0) return // draw head as image below
-      ctx.fillText('🦕', seg.x * CELL + CELL / 2, seg.y * CELL + CELL / 2 + 1)
+      ctx.fillText('🦖', seg.x * CELL + CELL / 2, seg.y * CELL + CELL / 2 + 1)
     })
 
     // Snake head — Rex image
@@ -136,7 +136,7 @@ export default function SnakeGame() {
         size,
       )
     } else {
-      ctx.fillStyle = '#c084fc'
+      ctx.fillStyle = '#f9a8d4'
       ctx.beginPath()
       ctx.roundRect(head.x * CELL + 1, head.y * CELL + 1, CELL - 2, CELL - 2, 4)
       ctx.fill()

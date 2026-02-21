@@ -38,7 +38,7 @@ export default function HomePage({ quizScore }) {
               '--x': `${Math.random() * 100}vw`,
               '--delay': `${Math.random() * 3}s`,
               '--duration': `${2 + Math.random() * 3}s`,
-              '--color': ['#a855f7', '#f59e0b', '#ec4899', '#6366f1', '#8b5cf6', '#f472b6'][i % 6],
+              '--color': ['#f472b6', '#f9a8d4', '#fb7185', '#fda4af', '#f43f5e', '#fecdd3'][i % 6],
               '--rotation': `${Math.random() * 360}deg`,
             }}
           />
@@ -91,8 +91,8 @@ export default function HomePage({ quizScore }) {
             <div className="profile-row">
               <span className="profile-label">代表色</span>
               <span className="profile-value">
-                <span className="profile-color" style={{ background: '#a855f7' }} />
-                皇家紫
+                <span className="profile-color" style={{ background: '#f472b6' }} />
+                櫻花粉
               </span>
             </div>
             <div className="profile-row">
@@ -134,6 +134,16 @@ export default function HomePage({ quizScore }) {
             <h3 className="quicklink-title">生日祝福</h3>
             <p className="quicklink-desc">來自各方的溫暖祝福</p>
           </Link>
+          <a
+            href="https://cn.buddymojo.com/match/cvm7?fbclid=PAT01DUAQGl0JleHRuA2FlbQIxMABzcnRjBmFwcF9pZA01NjcwNjczNDMzNTI0MjcAAadSSsa0le9WwhUGQgatiTNWoKhZlwO-6EyMOCKGs8Tu28Zu8T1NrLH-IcwIkg_aem_L8hs5VFFSx1vZAmyEnuvgw"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="quicklink-card glass"
+          >
+            <span className="quicklink-emoji">🧪</span>
+            <h3 className="quicklink-title">好友默契測驗</h3>
+            <p className="quicklink-desc">你有多了解雷克斯？</p>
+          </a>
         </div>
       </section>
     </div>

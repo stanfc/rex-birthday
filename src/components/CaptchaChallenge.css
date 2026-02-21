@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.5);
+  background: var(--bg-secondary, #ffe4e9);
   font-family: 'Noto Sans TC', system-ui, -apple-system, sans-serif;
 }
 

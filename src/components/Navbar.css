@@ -4,7 +4,7 @@
   left: 0;
   right: 0;
   z-index: 100;
-  background: rgba(10, 10, 20, 0.85);
+  background: rgba(255, 240, 243, 0.85);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--border-glass);
@@ -36,7 +36,7 @@
   font-size: 20px;
   font-weight: 800;
   letter-spacing: 3px;
-  background: linear-gradient(135deg, var(--accent-purple-light), var(--accent-gold));
+  background: linear-gradient(135deg, var(--accent-pink-light), var(--accent-gold));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -61,12 +61,12 @@
 
 .navbar-link:hover {
   color: var(--text-primary);
-  background: rgba(255, 255, 255, 0.06);
+  background: rgba(244, 114, 182, 0.08);
 }
 
 .navbar-link.active {
-  color: var(--accent-purple-light);
-  background: rgba(168, 85, 247, 0.12);
+  color: var(--accent-pink-light);
+  background: rgba(244, 114, 182, 0.12);
 }
 
 /* Hamburger */
@@ -112,7 +112,7 @@
     top: 60px;
     left: 0;
     right: 0;
-    background: rgba(10, 10, 20, 0.95);
+    background: rgba(255, 240, 243, 0.95);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     border-bottom: 1px solid var(--border-glass);
